@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admission Portal</title>
+
+    <!-- External CSS file inclusion -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS inclusion -->
+    <style>
+        /* Internal CSS Example */
+        h2 {
+            color: darkblue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Inline CSS example -->
+    <h1 style="color: #0b5394; text-align:center;">Welcome to Q.U.E.S.T Admission Portal</h1>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Programs</a>
+        <a href="#">Apply</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Image Section -->
+    <div class="banner">
+        <img src="https://picsum.photos/900/250" alt="University Image">
+    </div>
+
+    <!-- Admission Form -->
+    <h2>Admission Form</h2>
+    <form class="admission-form">
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter your full name">
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Program:</label>
+        <select>
+            <option>BS Computer Science</option>
+            <option>BS Software Engineering</option>
+            <option>BS Information Technology</option>
+        </select>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+
+        <label>Skills:</label>
+        <input type="checkbox"> HTML
+        <input type="checkbox"> CSS
+        <input type="checkbox"> C++
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Table Section -->
+    <h2>Available Programs</h2>
+    <table class="program-table">
+        <tr>
+            <th>Program</th>
+            <th>Duration</th>
+            <th>Fee</th>
+        </tr>
+        <tr>
+            <td>BS Computer Science</td>
+            <td>4 Years</td>
+            <td>$2000 / year</td>
+        </tr>
+        <tr>
+            <td>BS Software Engineering</td>
+            <td>4 Years</td>
+            <td>$2100 / year</td>
+        </tr>
+    </table>
+
+    <!-- List Section -->
+    <div class="list-section">
+        <h2>Required Documents</h2>
+        <ul>
+            <li>Matric Certificate</li>
+            <li>Intermediate Certificate</li>
+            <li>CNIC / B-form</li>
+            <li>Passport size Photos</li>
+        </ul>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Quaid-e-Awam University | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
